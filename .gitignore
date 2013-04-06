@@ -1,0 +1,6 @@
+Release_VC9/
+*.exe
+*.obj
+versions.vc
+version.vc
+html/

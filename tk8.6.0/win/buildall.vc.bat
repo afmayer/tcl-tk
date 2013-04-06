@@ -59,7 +59,7 @@ if "%INSTALLDIR%" == "" set INSTALLDIR=C:\Program Files\Tcl
 
 :: Where is the Tcl source directory?
 :: You can set the TCLDIR environment variable to your Tcl HEAD checkout
-if "%TCLDIR%" == "" set TCLDIR=..\..\tcl
+if "%TCLDIR%" == "" set TCLDIR=..\..\tcl8.6.0
 
 :: Build the normal stuff along with the help file.
 ::

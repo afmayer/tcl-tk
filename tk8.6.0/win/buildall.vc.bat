@@ -72,7 +72,7 @@ if errorlevel 1 goto error
 ::
 set OPTS=static,staticpkg,msvcrt
 if not %SYMBOLS%.==. set OPTS=symbols,static,staticpkg,msvcrt
-nmake -nologo -f makefile.vc shell OPTS=%OPTS% %1
+nmake -nologo -f makefile.vc release OPTS=%OPTS% %1
 if errorlevel 1 goto error
 
 set OPTS=

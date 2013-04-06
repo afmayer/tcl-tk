@@ -1,4 +1,4 @@
-Release_VC9/
+Release_*/
 *.exe
 *.obj
 versions.vc

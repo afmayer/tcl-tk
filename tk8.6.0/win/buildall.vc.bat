@@ -70,8 +70,8 @@ if errorlevel 1 goto error
 
 :: Build the static core and shell.
 ::
-set OPTS=static,staticpkg,msvcrt
-if not %SYMBOLS%.==. set OPTS=symbols,static,staticpkg,msvcrt
+set OPTS=static,staticpkg
+if not %SYMBOLS%.==. set OPTS=symbols,static,staticpkg
 nmake -nologo -f makefile.vc release OPTS=%OPTS% %1
 if errorlevel 1 goto error
 

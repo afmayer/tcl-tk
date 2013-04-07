@@ -654,7 +654,7 @@ pkgs:
 	@for /d %d in ($(PKGSDIR)\*) do \
 	  @if exist "%~fd\win\makefile.vc" ( \
 	    pushd "%~fd\win" & \
-	    $(MAKE) -$(MAKEFLAGS) -f makefile.vc TCLDIR=$(ROOT) &\
+	    $(MAKE) -$(MAKEFLAGS) -f makefile.vc MSVCRT=0 TCLDIR=$(ROOT) &\
 	    popd \
 	  )
 

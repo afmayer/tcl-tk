@@ -1,6 +1,13 @@
-Release_*/
+[Rr]elease*/
+[Dd]ebug*/
 *.exe
 *.obj
 versions.vc
 version.vc
 html/
+*.vcproj.*.user
+*.pdb
+*.ncb
+*.sln
+*.suo
+*.vcproj
